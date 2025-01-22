@@ -1,4 +1,4 @@
-#%% md
+
 In the first part, I implemented CNN classifier from scratch. I build up the model with different parameters and trained the model with them to compare each of them.
 I used epochs=25; learning rates as 0.001, 0.0005, 0.0001; batch sizes as 32, 64; dropouts as 0.3, 0.5, 0.8 . I calculated loss and accuracy for each case and then visualized them to see results better.
 For a general comment, most cases have a bit overfitting problem. The difference between training accuracy and validation accuracy is high, it shows that model has low ability to generalize. 
